@@ -5,7 +5,7 @@
 利用 selenium 进行虚拟浏览器操作
 
 普通网站的html爬取方式为：
-```
+```bash
 from selenium import webdriver
 
 def getpdf_link(url):
@@ -50,7 +50,7 @@ def getpdf_link(url):
 ```
 
 巨潮咨询网站的html爬取方式：
-```
+```bash
 from selenium import webdriver
 
 def getpdf_link(url):
@@ -117,7 +117,7 @@ def getpdf_link(url):
 
 ## 2. 写入pdf
 写入pdf利用`import urllib.request`包:
-```
+```bash
 def getpdf_file(pdf_link):
 
     for atag in pdf_link:
@@ -155,7 +155,7 @@ def getpdf_file(pdf_link):
                     'URLError: <urlopen error timed out> All times is failed'
 ```
 ## 3. 调用函数
-```
+```bash
 os.mkdir('pdf_download3')
 os.chdir(os.path.join(os.getcwd(), 'pdf_download3'))
 
