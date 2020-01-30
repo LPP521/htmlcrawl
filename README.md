@@ -5,7 +5,7 @@
 利用 selenium 进行虚拟浏览器操作
 
 普通网站的html爬取方式为：
-```bash
+```py
 from selenium import webdriver
 
 def getpdf_link(url):
