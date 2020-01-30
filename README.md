@@ -116,7 +116,7 @@ def getpdf_link(url):
 ```
 
 ## 2. 写入pdf
-写入pdf利用`py import urllib.request`包:
+写入pdf利用`import urllib.request`包:
 ```py
 def getpdf_file(pdf_link):
 
